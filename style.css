@@ -1,0 +1,239 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow-x: hidden;
+}
+body{
+    background-color:#041a33;
+}
+
+h3{
+    text-align: center;
+    color: oldlace;
+    font-family: 'Quicksand', sans-serif;
+    font-style: oblique;
+}
+.container{
+    width: 80%;
+}
+/* centralização de logo */
+.centralizar{
+    width: 90%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* menu mobile*/
+.menumobile i{
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    padding-left: 25px;
+}
+.menumobile li{
+    list-style: none;
+    font-size: 12px;
+    
+}
+.menumobile{
+    display: none;
+    text-align: right;
+    justify-content: center;
+    
+}
+
+.menumobile ul{
+    background-color: #222120;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width:90%;
+    left: 0 auto;
+    right: 0;
+    opacity: 0;
+    transition: 1s;
+}
+.menumobile a{
+    text-decoration: none;
+    color: white;
+    
+}
+.show_menu{
+    opacity: 1 !important;
+}
+@media screen and (max-width:768px){
+    .menumobile{
+        display: block;
+        
+    }
+    .menumobile a{
+        padding-left: 5px !important;
+    }
+    
+    /*.menumobile ul{
+        display: none;
+    }*/
+    .navbar{
+        display: none;
+    }
+    .bar {
+        display: none;
+    }
+}
+/* menu mobile*/
+/* menu desktop*/
+
+.bar{
+    border-bottom: #222120 solid;
+    padding-bottom: 20px;
+    margin-right:  30px;
+    margin-left: 30px;
+}
+.navbar{
+    list-style: none;
+    display: inline-flex;
+    
+}
+.navbar a{
+    
+    color: white;
+    text-decoration: none;
+}
+li{
+    padding: 5px;
+    margin: 0 5px;
+}
+/* menu desktop*/
+/*imagens*/
+.imagem{
+    width: 100%;
+}
+.imagem1{
+   background-color: #041a33;
+   
+   width: 100%;
+   padding: 5px;
+   margin-top: 10px;
+}
+.imagem1 p{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    padding-bottom: 10px;
+}
+/*imagens*/
+.abasobre{
+    /*background-color: #222120;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    flex-direction: column;
+    color: white;
+}
+
+.abasobre h4, h5{
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+    font-size: 10px;
+    color:  white;
+    padding-bottom: 5px ;
+    font-family: 'Quicksand',sans-serif;
+}
+
+
+.imagem img{
+   align-content: center;
+   justify-content: center;
+   width: 100%;
+   display: flex;
+   margin-top: 8px;
+   background-attachment: fixed;
+
+}
+/*formulário*/
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.text{
+    color: white;
+    font-style: italic;
+}
+.form textarea{
+    width: 50%;
+    height:10em;
+    
+}
+
+.form input[type=email],.form input[type=text],  input[type=submit], textarea {
+    
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    
+    
+    
+}
+.botão{
+    margin-top: 20px;
+    width: 10em;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+} 
+.fundoform{
+    background-color:#222120 ;
+    width: 100%; 
+}
+/*formulário*/ 
+/*rodapé*/
+.rodapé{
+    align-content: center;
+    background-color: #041a33;
+    margin-top: 10px;
+}
+.rodapé2{
+    background-color: #041a33;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.bar1{
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+   
+    
+}
+.bar2{
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+    
+    
+}
+.bar3{
+    color: white;
+    
+    font-family: 'Quicksand',sans-serif;
+    
+    
+}
+.bar3 ul i{
+    padding: 2px;
+}

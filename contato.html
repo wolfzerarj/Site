@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/730b1da26d.js" crossorigin="anonymous"></script>
+    <title>contato</title>
+</head>
+<header>
+
+    <div class="centralizar">
+        <img src="img/logo 3.png" alt=""> 
+    </div>
+    <div class="menumobile">
+        <a class="icon-menu"><i class="fas fa-bars"></i></a>
+     <ul>
+            <a href="index.html"><li>home</li></a>
+            <a href=""><li>sobre</li></a>
+            <a href="contato.html"><li>contato</li></a>
+    </ul>
+    </div>
+  <!--<h3>Grx Advocacia</h3>-->
+    <div class="bar">
+        <nav class="navbar">
+        <a href="index.html"><li>home</li></a>
+        <a href=""><li>sobre</li></a>
+        <a href="contato.html"><li>contato</li></a>
+        </nav>
+    </div>
+
+
+</header>
+<body>
+    <div class="imagem1">
+        <p>Entre em contato pelo formulário abaixo,</p>
+        <p>ou pelo e-mail e telefones dipostos aqui e nos rodapés:</p>
+        <p>(21) 3770-6285</p>
+        <p>(21) 98898-7227</p>
+        <p>gerxistoadv@gmail.com</p>
+        
+    </div> 
+    </div>
+    
+    <div class="fundoform">
+        <!--formulário-->
+        <div class="form">
+            <label class="text"><strong>Nome</strong></label>
+            <input type="text"  name="nome" placeholder="Seu nome...." required />
+            <label class="text"><strong>E-mail</strong></label>
+            <input type="email" name="email" placeholder="Seu e-mail...." required />
+            <label class="text"><strong>Mensagens</strong></label>
+            <textarea placeholder="sua mensagem...." required></textarea>
+            <button class="botão" type="submit" value="enviar" name="botão" onclick="sendMail(); return false"> enviar</button> 
+        </div><!--form-->
+    </div>
+    <!--formulário-->
+
+<script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
+<footer>
+    <div class="rodapé">
+        <div class="bar1">
+            todos os direitos foram reservados!
+        </div>
+    </div>
+    <div class="rodapé2"> 
+        <div class="bar2">
+            <ul><i class="fas fa-phone-volume" style="color: white"></i>(21) 3770-6285</ul>
+            <ul><i class="fas fa-phone-volume" style="color: white"></i>(21) 98898-7227</ul>
+            
+        </div>
+        <div class="bar3">
+            <ul><i class="fas fa-inbox"></i>gerxistoadv@gmail.com</ul>
+        </div>
+    </div> 
+    
+</footer>
+</body>
+
+</html>
